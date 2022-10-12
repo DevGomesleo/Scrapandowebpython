@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd 
 
 option = Options()
-option.add_argument('--headless')
+option.add_argument('--headless') 
 
 conteudo = []
 url = 'https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page='
@@ -26,7 +26,6 @@ while lista <=20:
 
 
     busca = site.findAll('div', attrs={'class': 'col-sm-4 col-lg-4 col-md-4'})
-#iten = busca.find('a', attrs={'class':'title'})
 
 
     for iten in busca:
