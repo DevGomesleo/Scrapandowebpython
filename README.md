@@ -1,4 +1,4 @@
-# Scrapandowebpython 
+# Web scraping python 
  Engatinhando nos códigos, Muito café e o resto é história. 
 Script Faz web scraping no site:
  https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=
