@@ -41,4 +41,4 @@ while lista <=20:
 
 scrapan = pd.DataFrame(conteudo, columns=[' Computador', ' Preço', ' Descrição'])
 
-scrapan.to_csv('Scrapan.csv' )
+scrapan.to_csv('RESULTADO.csv' )
